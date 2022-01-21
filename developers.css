@@ -1,0 +1,22 @@
+/*Adds indicators to avatars of every Oldbanana developer*/
+.Avatar[href="https://gamebanana.com/members/1737924"]::before,
+.Avatar[href="https://gamebanana.com/members/2029036"]::before{
+  content: url(https://images.gamebanana.com/img/flags/studios/61a197d40641e.png);
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  filter: drop-shadow(0 0 2px black) drop-shadow(0 0 2px black);
+}
+
+.Avatar[href="https://gamebanana.com/members/1737924"].Online::before,
+.Avatar[href="https://gamebanana.com/members/2029036"].Online::before {
+  content: url(https://images.gamebanana.com/img/flags/studios/61a197d40641e.png);
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  bottom: -3px;
+  right: 10px;
+  filter: drop-shadow(0 0 2px black) drop-shadow(0 0 2px black);
+}
