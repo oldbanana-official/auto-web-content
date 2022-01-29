@@ -1,0 +1,16 @@
+//developer
+//donor
+//tester
+
+{
+  "users": [
+    {
+      "id": 1737924,
+      "role": "developer"
+    },
+    {
+      "id": 2029036,
+      "role": "developer"
+    }
+  ]
+}
